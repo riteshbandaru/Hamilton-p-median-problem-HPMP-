@@ -1,0 +1,8 @@
+module Hello {
+  type component MyComp {}
+
+  testcase TC_Hello() runs on MyComp {
+    log("Hello, TTCN-3 world!");
+  }
+}
+
